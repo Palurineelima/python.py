@@ -1,0 +1,26 @@
+#assigning elements of lists to different lists
+>>> ls1=[]
+>>> ls2=[1,2,4,4,7]
+>>> ls1=ls2.copy()
+>>> print(ls1)
+[1, 2, 4, 4, 7]
+
+
+#assigning elements of a tuple
+ t1=(1,2,3)
+>>> print(t1[0])
+1
+>>> print(t1[1])
+2
+>>> print(t1[2])
+3
+
+#deleting elements of a dictionary
+>>> myDict = {1: 'Geeks', 2: 'For', 3: 'Geeks'}
+>>> for key in list(myDict):
+	if key==2:
+		del myDict[key]
+
+		
+>>> print(myDict)
+{1: 'Geeks', 3: 'Geeks'}
